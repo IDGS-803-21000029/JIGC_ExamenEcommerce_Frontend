@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+/* General */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navegación */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3;
+}
+
+/* Banner */
+.banner {
+  background-color: #e9ecef;
+  border: 1px solid #dee2e6;
+}
+
+/* Productos */
+.card {
+  border: 1px solid #ddd;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
